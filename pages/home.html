@@ -19,7 +19,10 @@
     <title>Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+
+    <!-- Navigation -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-static-top">
         <div class="container-fluid" id="header-container">
           <a class="navbar-brand" href="home.html"><img src="/assets/Layer 2.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,14 +32,22 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
+                <li class="nav-item">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <strong>SERVICES</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        PRODUCT CATEGORIES
+                        Product Categories
                       </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                       <div class="accordion-body">
                           <a>Accesories</a>
                           <a>Alcohol</a>
@@ -63,15 +74,15 @@
                           <a>Sport</a>
                           <a>Toys</a>
                       </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            SALE
-                          </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
+                                    </div>
+                                    <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Sale
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
                               <a>Accesories</a>
                               <a>Alcohol</a>
                               <a>Art</a>
@@ -80,16 +91,93 @@
                               <a>Electronics</a>
                               <a>Flowers & Plants</a>
                               <a>Food</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse">
+                            <strong>COMPANY</strong>
+                          </button>
+                        </h2>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse">
+                            <strong>LIBRARY</strong>
+                          </button>
+                        </h2>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse">
+                            <strong>CONTACT US</strong>
+                          </button>
+                        </h2>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <img src="/assets/Layer 162.png" alt="stock image" id="stock">
+                </li>
             </ul>
           </div>
     </nav>
+    </header>
 
+    <!-- First carousel -->
+    <div class="container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-white">
+                <img src="/assets/slider1.png" class="card-img d-block w-100" alt="carousel">
+                <div class="card-img-overlay">
+                  <h1 class="card-title"><strong>Control and manage any device with cloud solutions</strong></h1>
+                  <p class="card-text">Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+                  <button type="button" class="btn btn-outline-light">VIEW MORE</button>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-white">
+                <img src="/assets/slider1.png" class="card-img d-block w-100" alt="carousel">
+                <div class="card-img-overlay">
+                  <h1 class="card-title"><strong>Control and manage any device with cloud solutions</strong></h1>
+                  <p class="card-text">Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+                  <button type="button" class="btn btn-outline-light">VIEW MORE</button>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-white">
+                <img src="/assets/slider1.png" class="card-img d-block w-100" alt="carousel">
+                <div class="card-img-overlay">
+                  <h1 class="card-title"><strong>Control and manage any device with cloud solutions</strong></h1>
+                  <p class="card-text">Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+                  <button type="button" class="btn btn-outline-light">VIEW MORE</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
-    <!-- Bootstrap Bundle with Popper -->
+    <!-- Popular items / Second carousel -->
+
+    <div>
+        
+    </div>
+
+      <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
