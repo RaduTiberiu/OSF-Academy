@@ -20,8 +20,12 @@
   </head>
   <body>
 
+    <!-- Cookie modal -->
+
+
     <!-- Navigation -->
     <header>
+    <div class="container-desktop">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid" id="header-container">
           <a class="navbar-brand" href="home.html"><img src="/assets/Layer 2.png"></a>
@@ -125,7 +129,8 @@
             </ul>
           </div>
     </nav>
-    </header>
+    </div>
+  </header>
 
     <!-- First carousel -->
     <div class="container-fluid" id="first-carousel">
@@ -308,7 +313,7 @@
 
       <!-- Footer -->
 
-      <div class="container-fluid" style="margin-top: 1rem; color: #333333">
+      <div class="container-fluid" style="margin: 1rem 0 3rem 0; color: #333333">
         <p id="current-date"></p>
         <p>All Rights Reserved</p>
         <div class="accordion" id="accordionExample" style="background-color: #FFF;">
@@ -381,7 +386,7 @@
       </div>
 
       <!-- Icons -->
-      <div class="badge-icons">
+      <div class="badge-icons fixed-bottom">
         <button type="button" class="btn position-relative">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#909296" class="bi bi-search" viewBox="0 0 16 16">
           <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
@@ -409,6 +414,25 @@
               </span>
               </button>
       </div>
+      <!-- Button trigger modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
 
 
     <!-- Bootstrap Bundle with Popper -->
