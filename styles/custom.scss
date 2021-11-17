@@ -270,3 +270,18 @@ hr {
     color: #333333;
     text-decoration: none;
 }
+
+.badge-icons {
+    width: 100%;
+    background: $background;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.rounded-pill {
+    color: #84bc22;
+    border: 2px solid #84bc22;
+    background-color: $background;
+}
