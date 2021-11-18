@@ -134,7 +134,7 @@ hr {
 }
 
 #first-carousel {
-    padding-top: 1rem;
+    padding-top: 4.5rem;
 }
 
 .card-text {
@@ -262,7 +262,7 @@ hr {
     display: flex;
     justify-content:space-evenly;
     width: 50%;
-    margin: 1rem auto;
+    margin: 1rem auto 6rem auto;
     opacity: 0.4;
 }
 
@@ -281,7 +281,42 @@ hr {
 }
 
 .rounded-pill {
-    color: #84bc22;
-    border: 2px solid #84bc22;
+    color: $osfgreen;
+    border: 2px solid $osfgreen;
     background-color: $background;
+}
+
+#cookie-accept {
+    background-color: $osfgreen;
+    border-color: $osfgreen;
+    border-radius: 30px;
+    width: 50%;
+}
+
+#exampleModalLabel {
+    color: $osfgreen;
+}
+
+.modal-header,
+.modal-footer {
+    border: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 40px;
+    border-color: #e8e2d6;
 }

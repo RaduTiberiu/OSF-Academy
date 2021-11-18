@@ -42,3 +42,9 @@ let favPlus = function () {
 for (var i = 0; i < addFav.length; i++) {
     addFav[i].addEventListener('click', favPlus);
 }
+
+window.addEventListener('load', function(){
+    setTimeout(function(){
+        document.getElementById('modal-button').click();
+    }, 2000);
+ });
