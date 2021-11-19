@@ -320,3 +320,52 @@ input {
     border-radius: 40px;
     border-color: #e8e2d6;
 }
+
+.signin-link {
+    color: $osfgreen;
+    text-decoration: none;
+}
+
+.signin-button {
+    background: $osfgreen;
+    border-color: $osfgreen;
+    width: 25%;
+    border-radius: 40px;
+}
+
+.accordion-body > a {
+    text-decoration: none;
+    color: $primary;
+}
+
+.cream-background {
+    background-color: #e8e2d6;
+    width: 100%;
+    margin-top: 4.5rem;
+}
+
+.breadcrumb {
+    padding-top: 1.5rem;
+    justify-content: center;
+}
+
+.breadcrumb-item > a {
+    text-decoration: none;
+    color: $osfgreen;
+}
+
+.error-title {
+    display: flex;
+    justify-content: center;
+}
+
+.error-title > hr {
+    flex-grow: 3;
+    height: 2px;
+}
+
+.error-title > h1 {
+    margin: 0 1.5rem;
+    font-weight: 900;
+    color: #45413e;
+}
