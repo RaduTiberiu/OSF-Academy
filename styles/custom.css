@@ -391,6 +391,7 @@ input {
   background-color: #e8e2d6;
   width: 100%;
   margin-top: 4.5rem;
+  padding-bottom: 3rem;
 }
 
 .breadcrumb {
@@ -400,7 +401,8 @@ input {
           justify-content: center;
 }
 
-.breadcrumb-item > a {
+.breadcrumb-item > a,
+#error-message > a {
   text-decoration: none;
   color: #84bc22;
 }
@@ -422,8 +424,93 @@ input {
 }
 
 .error-title > h1 {
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 2rem 1.5rem;
   font-weight: 900;
   color: #45413e;
+}
+
+.oops {
+  font-weight: 900;
+  color: #84bc22;
+  padding: 2.5rem 0 1rem 0;
+  font-size: 4rem;
+}
+
+#error-message {
+  background-color: #FFF;
+  background-image: url(/assets/exclamation.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  border-radius: 10px;
+}
+
+#search {
+  background: url(/assets/search-icon.png) no-repeat scroll 7px 7px;
+  background-position: calc(100% - 10px);
+  margin-bottom: 2rem;
+}
+
+.breadcrumb-item:hover {
+  color: blue;
+}
+
+#filters {
+  background-color: #FFF;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#price,
+.price {
+  margin-top: 1rem;
+}
+
+#price {
+  width: 100%;
+}
+
+label {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.col-two {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.form-select {
+  border-radius: 50px;
+  border: 3px solid #aeacab;
+}
+
+.form-row:not(:first-of-type) {
+  margin-top: 1.5rem;
+}
+
+form {
+  border-radius: 10px;
+}
+
+.hidden-card {
+  display: none;
+}
+
+.service-card {
+  margin: 2rem 0;
 }
 /*# sourceMappingURL=custom.css.map */

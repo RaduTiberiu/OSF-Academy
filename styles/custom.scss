@@ -342,6 +342,7 @@ input {
     background-color: #e8e2d6;
     width: 100%;
     margin-top: 4.5rem;
+    padding-bottom: 3rem;
 }
 
 .breadcrumb {
@@ -349,7 +350,8 @@ input {
     justify-content: center;
 }
 
-.breadcrumb-item > a {
+.breadcrumb-item > a,
+#error-message >a {
     text-decoration: none;
     color: $osfgreen;
 }
@@ -365,7 +367,80 @@ input {
 }
 
 .error-title > h1 {
-    margin: 0 1.5rem;
+    margin: 0 1.5rem 2rem 1.5rem;
     font-weight: 900;
     color: #45413e;
+}
+
+.oops {
+    font-weight: 900;
+    color: $osfgreen;
+    padding: 2.5rem 0 1rem 0;
+    font-size: 4rem;
+}
+
+#error-message {
+    background-color: $primary;
+    background-image: url(/assets/exclamation.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 95%;
+    border-radius: 10px;
+}
+
+#search {
+    background: url(/assets/search-icon.png) no-repeat scroll 7px 7px;
+    background-position: calc(100% - 10px);
+    margin-bottom: 2rem;
+}
+
+.breadcrumb-item:hover {
+    color: blue;
+}
+
+#filters {
+    background-color: $primary;
+    width: 95%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#price, 
+.price {
+    margin-top: 1rem;
+}
+
+#price {
+    width: 100%;
+}
+
+label {
+    align-self:center;
+}
+
+.col-two {
+    flex-grow: 2;
+}
+
+.form-select {
+    border-radius: 50px;
+    border: 3px solid #aeacab;
+}
+
+.form-row:not(:first-of-type) {
+    margin-top: 1.5rem;
+}
+
+form {
+    border-radius: 10px;
+}
+
+.hidden-card {
+    display: none;
+}
+
+.service-card {
+    margin: 2rem 0;
 }
