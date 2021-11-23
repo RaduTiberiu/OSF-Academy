@@ -444,3 +444,35 @@ form {
 .service-card {
     margin: 2rem 0;
 }
+
+.prod-carousel {
+    height: 390px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.prod-showcase {
+    background-color: $primary;
+    width: 95%;
+    padding: 0;
+}
+
+.prod-lineup {
+    padding: 0 20px;
+}
+
+.thumbnail {
+    opacity: 0.5;
+    border: 1px solid #a7aba4;
+    border-radius: 3px;
+}
+
+.thumbnail:focus {
+    opacity: 1;
+    border: 1px solid $osfgreen;
+}
+
+.prod-details {
+    background-color: $primary;
+    width: 95%;
+}

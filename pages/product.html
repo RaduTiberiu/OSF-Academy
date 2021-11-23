@@ -150,31 +150,47 @@
 
         <!-- Product showcase -->
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col">
-              <img src="/assets/PG.10216885.JJ169XX.BZ.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="col">
-              <img src="/assets/PG.10216885.JJ169XX.BZ.jpg" class="d-block w-100" alt="...">
-                </div>
+        <div class="container-fluid prod-showcase">
+          <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner prod-carousel">
+              <div class="carousel-item active">
+                <img src="/assets/PG.10216885.JJ169XX.PZ.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/PG.10216885.JJ169XX.BZ.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/PG.10216885.JJ8UTXX.PZ.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/PG.10216885.JJ8UTXX.BZ.jpg" class="d-block w-100">
+              </div>
             </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
+            <div class="container-fluid prod-lineup">
+              <div class="row flex-nowrap overflow-auto">
                 <div class="col">
-              <img src="/assets/PG.10216885.JJ169XX.BZ.jpg" class="d-block w-100" alt="...">
+                  <img tabindex="-1" src="/assets/PG.10216885.JJ169XX.PZ-small.jpg" data-bs-target="#productCarousel" data-bs-slide-to="0" class="thumbnail" aria-current="true" aria-label="Slide 1">
                 </div>
                 <div class="col">
-              <img src="/assets/PG.10216885.JJ169XX.BZ.jpg" class="d-block w-100" alt="...">
+                  <img tabindex="-1" src="/assets/PG.10216885.JJ169XX.BZ-small.jpg" data-bs-target="#productCarousel" data-bs-slide-to="1" class = "thumbnail" aria-label="Slide 2">
                 </div>
-            </div>
+                <div class="col">
+                  <img tabindex="-1" src="/assets/PG.10216885.JJ8UTXX.PZ-small.jpg" data-bs-target="#productCarousel" data-bs-slide-to="2" class = "thumbnail" aria-label="Slide 3">
+                </div>
+                <div class="col">
+                  <img tabindex="-1" src="/assets/PG.10216885.JJ8UTXX.BZ-small.jpg" data-bs-target="#productCarousel" data-bs-slide-to="3" class = "thumbnail" aria-label="Slide 4">
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
+        <!-- Product details -->
+
+        <div class="container-fluid prod-details">
+          <h1 style="padding-top: 3rem; font-weight: 900; color: #45413e">$299.99</h1>
+          
+        </div>
 
     </div>
 
