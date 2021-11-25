@@ -9,6 +9,7 @@ let addFav = document.getElementsByClassName("add-fav");
 let favCounter = document.getElementById("fav-counter");
 let loadMore = document.getElementsByClassName("load-more");
 let hiddenCard = document.getElementsByClassName("hidden-card");
+let cookieButton = document.getElementById("cookie-accept");
 
 
 itemOne.onmouseover = function() {
@@ -48,15 +49,21 @@ for (var i = 0; i < addFav.length; i++) {
 window.addEventListener('load', function(){
     setTimeout(function(){
         document.getElementById('modal-button').click();
-    }, 2000);
- });
+    }, 10000);
+});
 
 
- let showProds = function () {
+let showProds = function () {
     for (var i = 0; i < hiddenCard.length; i++) {
         hiddenCard[i].style.display = "block"
     };
     loadMore[0].style.display = "none";
- };
+};
 
- loadMore[0].addEventListener('click', showProds);
+loadMore[0].addEventListener('click', showProds);
+
+const saveCookie = function() {
+    document.cookie = "cookieAccept=true"
+}
+
+cookieButton.addEventListener('click', saveCookie);

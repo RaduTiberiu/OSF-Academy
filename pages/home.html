@@ -144,7 +144,7 @@
                 <div class="card-img-overlay">
                   <h1 class="card-title"><strong>Control and manage any device with cloud solutions</strong></h1>
                   <p class="card-text">Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
-                  <button type="button" class="btn btn-outline-light">VIEW MORE</button>
+                  <button type="button" class="btn btn-outline-light" onclick="location.href = '/pages/categ-landing.html';">VIEW MORE</button>
                 </div>
               </div>
           </div>
@@ -153,7 +153,7 @@
                 <div class="card-img-overlay">
                   <h1 class="card-title"><strong>Control and manage any device with cloud solutions</strong></h1>
                   <p class="card-text">Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
-                  <button type="button" class="btn btn-outline-light">VIEW MORE</button>
+                  <button type="button" class="btn btn-outline-light" onclick="location.href = '/pages/categ-landing.html';">VIEW MORE</button>
                 </div>
               </div>
           </div>
@@ -162,7 +162,7 @@
                 <div class="card-img-overlay">
                   <h1 class="card-title"><strong>Control and manage any device with cloud solutions</strong></h1>
                   <p class="card-text">Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
-                  <button type="button" class="btn btn-outline-light">VIEW MORE</button>
+                  <button type="button" class="btn btn-outline-light" onclick="location.href = '/pages/categ-landing.html';">VIEW MORE</button>
                 </div>
               </div>
           </div>
@@ -444,13 +444,13 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <input type="email" placeholder="Email">
-              <input type="password" placeholder="Password">
+              <input type="email" placeholder="Email" pattern="@" required>
+              <input type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
               <a class='signin-link'>Forgot Password</a>
             </div>
             <div class="modal-footer">
               <a class='signin-link'>I don't have an account</a>
-              <button type="button" class="btn btn-primary signin-button" data-bs-dismiss="modal">Sign in</button>
+              <input type="submit" class="btn btn-primary signin-button" data-bs-dismiss="modal" value="SIGN IN">
             </div>
           </div>
           </div>

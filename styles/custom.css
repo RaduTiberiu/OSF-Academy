@@ -597,4 +597,47 @@ form {
   width: 50%;
   margin-top: 1.5rem;
 }
+
+#more {
+  display: none;
+}
+
+#myBtn {
+  color: #84bc22;
+}
+
+#desc {
+  margin-top: 1.5rem;
+  font-weight: bolder;
+}
+
+#share-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+#scroll-top {
+  background-color: #84bc22;
+  border-color: #84bc22;
+  border-radius: 30px;
+  width: 50%;
+}
+
+#fullpage {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.925);
+}
 /*# sourceMappingURL=custom.css.map */

@@ -523,3 +523,42 @@ form {
     width: 50%;
     margin-top: 1.5rem;
 }
+
+#more {
+    display: none;
+}
+
+#myBtn {
+    color: $osfgreen;
+}
+
+#desc {
+    margin-top: 1.5rem;
+    font-weight: bolder;
+}
+
+#share-socials {
+    display: flex;
+    align-items: baseline;
+}
+
+#scroll-top {
+    background-color: $osfgreen;
+    border-color: $osfgreen;
+    border-radius: 30px;
+    width: 50%;
+}
+
+#fullpage {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.925);
+  }
